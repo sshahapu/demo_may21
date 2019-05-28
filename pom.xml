@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.mkyong</groupId>
   <artifactId>CountWebapp</artifactId>
-  <version>0.0.1</version>
+  <version2>0.0.1</version2>
   <packaging>war</packaging>
   <name>CounterWebApp Maven Webapp</name>
   <url>http://maven.apache.org</url>
