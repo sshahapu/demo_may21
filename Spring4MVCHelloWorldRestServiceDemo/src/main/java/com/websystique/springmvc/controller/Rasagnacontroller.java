@@ -7,19 +7,13 @@ import org.springframework.web.bind.annotation.RestController;
 import com.websystique.springmvc.domain.Message;
 
 @RestController
-public class HelloWorldRestController {
+public class Rasagnacontroller {
 
-	@RequestMapping("/")
-	public String welcome() {//Welcome page, non-rest
-		return "Welcome XXXXXXXXXXXXXXXXXXXXXXXXXXXX YYYY.";
-	}
-
-	@RequestMapping("/hello/{player}")
+	
+	@RequestMapping("/hello/{player111}")
 	public Message message(@PathVariable String player) {//REST Endpoint.
 
 		Message msg = new Message(player, "Hello " + player);
 		return msg;
 	}
-
-	
 }
