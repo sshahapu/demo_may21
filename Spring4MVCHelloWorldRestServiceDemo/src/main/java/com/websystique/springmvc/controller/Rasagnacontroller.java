@@ -14,6 +14,8 @@ public class Rasagnacontroller {
 	public Message message(@PathVariable String player) {//REST Endpoint.
 
 		Message msg = new Message(player, "Hello " + player);
+		
+		
 		return msg;
 	}
 }
